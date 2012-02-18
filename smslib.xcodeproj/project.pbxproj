@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322635660B15C2C300D13ADD /* CREDITS.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 322635650B15C2C300D13ADD /* CREDITS.txt */; };
+		322635E60B15C2CB00D13ADD /* TODO.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 322635E50B15C2CB00D13ADD /* TODO.txt */; };
+		3261C8010B113D790067DE7D /* smslib.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DCDB000B0D0F5A006DDAC9 /* smslib.m */; };
+		3261C9600B1146500067DE7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		3261C9610B1146540067DE7D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328DAC9F0B0E1F5500602845 /* IOKit.framework */; };
+		3261C9860B1159DC0067DE7D /* SMSTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 3261C9850B1159DC0067DE7D /* SMSTester.m */; };
+		3261C9870B1159EE0067DE7D /* smsutil.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DCDB370B0D102E006DDAC9 /* smsutil.m */; };
+		3261C9900B115A360067DE7D /* smstest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* smstest.m */; };
+		3261C9910B115A380067DE7D /* SMSTester.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32DCDB390B0D1034006DDAC9 /* SMSTester.h */; };
+		328DAB230B0E1A2100602845 /* smslib.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DCDB000B0D0F5A006DDAC9 /* smslib.m */; };
+		328DAB240B0E1A2200602845 /* smslib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32DCDAFF0B0D0F5A006DDAC9 /* smslib.h */; };
+		328DAB250B0E1A2400602845 /* smslib_Prefix.pch in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32A70AAB03705E1F00C91783 /* smslib_Prefix.pch */; };
+		328DACA00B0E1F5500602845 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328DAC9F0B0E1F5500602845 /* IOKit.framework */; };
+		32BAA36C0B0F327400C4E90F /* CHANGELOG.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32BAA36B0B0F327400C4E90F /* CHANGELOG.txt */; };
+		32BAA3840B0F335E00C4E90F /* README.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32BAA3830B0F335E00C4E90F /* README.txt */; };
+		32BAA38C0B0F351700C4E90F /* CONTENTS.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32BAA38B0B0F351700C4E90F /* CONTENTS.txt */; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				328DAB240B0E1A2200602845 /* smslib.h in CopyFiles */,
+				328DAB250B0E1A2400602845 /* smslib_Prefix.pch in CopyFiles */,
+				32BAA36C0B0F327400C4E90F /* CHANGELOG.txt in CopyFiles */,
+				32BAA3840B0F335E00C4E90F /* README.txt in CopyFiles */,
+				32BAA38C0B0F351700C4E90F /* CONTENTS.txt in CopyFiles */,
+				3261C9910B115A380067DE7D /* SMSTester.h in CopyFiles */,
+				322635660B15C2C300D13ADD /* CREDITS.txt in CopyFiles */,
+				322635E60B15C2CB00D13ADD /* TODO.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* smstest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smstest.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		322635650B15C2C300D13ADD /* CREDITS.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = CREDITS.txt; sourceTree = "<group>"; wrapsLines = 0; };
+		322635E50B15C2CB00D13ADD /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		3261C7FD0B113D580067DE7D /* smsutil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smsutil; sourceTree = BUILT_PRODUCTS_DIR; };
+		3261C9850B1159DC0067DE7D /* SMSTester.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SMSTester.m; sourceTree = "<group>"; };
+		328DAC9F0B0E1F5500602845 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* smslib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smslib_Prefix.pch; sourceTree = "<group>"; };
+		32BAA3580B0F2F5200C4E90F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = LICENSE.txt; sourceTree = "<group>"; wrapsLines = 0; };
+		32BAA36B0B0F327400C4E90F /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = CHANGELOG.txt; sourceTree = "<group>"; };
+		32BAA3830B0F335E00C4E90F /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = README.txt; sourceTree = "<group>"; };
+		32BAA38B0B0F351700C4E90F /* CONTENTS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = CONTENTS.txt; sourceTree = "<group>"; };
+		32DCDAFF0B0D0F5A006DDAC9 /* smslib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = smslib.h; sourceTree = "<group>"; };
+		32DCDB000B0D0F5A006DDAC9 /* smslib.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = smslib.m; sourceTree = "<group>"; };
+		32DCDB370B0D102E006DDAC9 /* smsutil.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = smsutil.m; sourceTree = "<group>"; };
+		32DCDB390B0D1034006DDAC9 /* SMSTester.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMSTester.h; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* smslibtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smslibtest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3261C7FB0B113D580067DE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3261C9600B1146500067DE7D /* Foundation.framework in Frameworks */,
+				3261C9610B1146540067DE7D /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				328DACA00B0E1F5500602845 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* smslib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = smslib;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32DCDB390B0D1034006DDAC9 /* SMSTester.h */,
+				3261C9850B1159DC0067DE7D /* SMSTester.m */,
+				32DCDAFF0B0D0F5A006DDAC9 /* smslib.h */,
+				32DCDB000B0D0F5A006DDAC9 /* smslib.m */,
+				32A70AAB03705E1F00C91783 /* smslib_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* smstest.m */,
+				32DCDB370B0D102E006DDAC9 /* smsutil.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+				328DAC9F0B0E1F5500602845 /* IOKit.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* smslibtest */,
+				3261C7FD0B113D580067DE7D /* smsutil */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				32BAA38B0B0F351700C4E90F /* CONTENTS.txt */,
+				322635650B15C2C300D13ADD /* CREDITS.txt */,
+				32BAA36B0B0F327400C4E90F /* CHANGELOG.txt */,
+				32BAA3830B0F335E00C4E90F /* README.txt */,
+				32BAA3580B0F2F5200C4E90F /* LICENSE.txt */,
+				322635E50B15C2CB00D13ADD /* TODO.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3261C7FC0B113D580067DE7D /* smsutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3261C8040B113D970067DE7D /* Build configuration list for PBXNativeTarget "smsutil" */;
+			buildPhases = (
+				3261C7FA0B113D580067DE7D /* Sources */,
+				3261C7FB0B113D580067DE7D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smsutil;
+			productName = smsutil;
+			productReference = 3261C7FD0B113D580067DE7D /* smsutil */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76F960486AA7600D96B5E /* smslibtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "smslibtest" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smslibtest;
+			productInstallPath = "$(HOME)/bin";
+			productName = smslib;
+			productReference = 8DD76FA10486AA7600D96B5E /* smslibtest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "smslib" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* smslib */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* smslibtest */,
+				3261C7FC0B113D580067DE7D /* smsutil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3261C7FA0B113D580067DE7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3261C8010B113D790067DE7D /* smslib.m in Sources */,
+				3261C9870B1159EE0067DE7D /* smsutil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328DAB230B0E1A2100602845 /* smslib.m in Sources */,
+				3261C9860B1159DC0067DE7D /* SMSTester.m in Sources */,
+				3261C9900B115A360067DE7D /* smstest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = smslib_Prefix.pch;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = smslibtest;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "ppc i386 ppc64 x86_64";
+				CONFIGURATION_BUILD_DIR = .;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = smslib_Prefix.pch;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = smslibtest;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		3261C8050B113D970067DE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = smsutil;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		3261C8060B113D970067DE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				CONFIGURATION_BUILD_DIR = .;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = smsutil;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "smslibtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "smslib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3261C8040B113D970067DE7D /* Build configuration list for PBXNativeTarget "smsutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3261C8050B113D970067DE7D /* Debug */,
+				3261C8060B113D970067DE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

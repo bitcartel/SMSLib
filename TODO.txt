@@ -1,0 +1,33 @@
+THINGS TO DO
+
+There are two ways SMSLib could be improved. The first is fairly
+trivial: smslibtest should thoroughly test ALL of the SMSLib functions,
+not just the main ones.
+
+The second will be much more difficult: fix SMSLib's reliability problem
+on certain G4-based laptops. On the PowerBook5,6, PowerBook5,7,
+PowerBook6,7 and PowerBook6,8 models, SMSLib will suddenly stop working,
+and won't start working again until the machine is rebooted. I've been
+unable to solve this, partly because I don't have access to any such
+machines, but also because the issue is governed by some internal Apple
+code and I don't have the tools or experience for such low-level
+debugging.
+
+When SMSLib works on these machines, it uses the service
+"IOI2CMotionSensor" with selector 21 and a 60 byte record. When it
+fails, it outputs the following error record:
+
+Trying service "IOI2CMotionSensor" with selector 21 and 60 byte record:
+    Fetching dictionary for service: success.
+    Getting list of matching services: success.
+    Getting first device in list: success.
+    Opening device: success.
+    Testing device.
+    Querying device: failed.
+    Failure testing device, with result 0xe00002e9.
+
+Any and all ideas on how to fix this would be appreciated!
+
+
+Thanks,
+Dan

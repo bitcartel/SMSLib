@@ -1,0 +1,32 @@
+SMSLib ChangeLog
+
+SMSLib 1.8
+- Fixed some memory leaks
+- Added a number of new models, including the MacBookPro5,3 ,
+	which has swapped X and Y axes and thus couldn't be calibrated
+	properly
+- Made code 64-bit capable
+
+SMSLib 1.7
+- Fixed Leopard bug writing corrupt calibrations
+- Fixed bug crashing when reading corrupt calibrations
+- Added comment that same calibration is used for both 15" and 17"
+	variants of MacBook Pro Core 2 Duo with LED backlight, although
+	latter has different signs for X and Y axes
+
+SMSLib 1.6
+- Improved calibration for MacBook Pro Core 2 Duo 15" with LED backlight
+
+SMSLib 1.5
+- Set smsutil and smslibtest to compile for both PowerPC and Intel machines
+
+SMSLib 1.4:
+- Improved debugging data (now shows 10Hz sine waves, decaying over 3 seconds,
+		with X, Y and Z axes staggered by 1 second)
+- Improved calibration with MacBook Pro Core 2 Duo 17" (Y and Z axes reversed)
+
+SMSLib 1.3:
+
+- Released under University of Illinois/NCSA Open Source License
+- Greatly improved default calibration
+- Cleaned up API

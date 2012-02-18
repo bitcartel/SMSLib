@@ -1,0 +1,20 @@
+CREDITS
+
+Although the code is all my own, when accessing the Sudden Motion Sensor
+I used techniques discovered by a number of people:
+
+Amit Singh (see http://www.kernelthread.com/software/ams)
+
+Pall Thayer (see http://pallit.lhi.is/palli/dashlevel)
+
+Randy Green (see http://www.slappingturtle.com/home)
+
+
+When enhancing the library to be 64-bit capable, I used hints sent me by
+Vitus Lorenz-Meyer <derdoc@googlemail.com> and Ryan Schmukler <schmukler@wisc.edu>.
+Thanks, gentlemen.
+
+
+Thanks also to the people who have written. Thanks especially to those
+who have given clear and informative bug reports: you made improving
+SMSLib a lot easier.

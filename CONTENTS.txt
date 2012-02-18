@@ -1,0 +1,30 @@
+SMSLib Sudden Motion Sensor Access Library
+Copyright (C) 2010 Daniel Griscom, Suitable Systems
+
+This distribution contains the following files:
+
+- CONTENTS.txt: this document
+
+- README.txt: general information about SMSLib
+
+- CHANGELOG.txt: how SMSLib has changed over time
+
+- LICENSE.txt: the license for SMSLib
+
+- smslib.c, smslib.h: the SMSLib Sudden Motion Sensor access library
+
+- smstest: a command line test program for SMSLib
+
+- smsttest.m: source code for smstest
+
+- SMSTester.m, SMSTester.h: a test class for SMSLib, used in smstest
+
+- smslib.xcodeproj/ : An XCode project for building smstest
+
+- smslib_Prefix.pch: An XCode-generated header file
+
+- smsutil: a command line utility that employs SMSLib
+
+- smsutil.m: source code for smsutil
+
+
