@@ -258,7 +258,7 @@ static BOOL loadCalibration(void);
 static void storeCalibration(void);
 static void defaultCalibration(void);
 static void deleteCalibration(void);
-static int prefIntRead(NSString *prefName, BOOL *success);
+static CFIndex prefIntRead(NSString *prefName, BOOL *success);
 static void prefIntWrite(NSString *prefName, int prefValue);
 static float prefFloatRead(NSString *prefName, BOOL *success);
 static void prefFloatWrite(NSString *prefName, float prefValue);
@@ -761,7 +761,7 @@ static void prefFloatWrite(NSString *prefName, float prefValue) {
 }
 
 // Reads a named integer value from the stored preferences.
-static int prefIntRead(NSString *prefName, BOOL *success) {
+static CFIndex prefIntRead(NSString *prefName, BOOL *success) {
 	Boolean internalSuccess;
 	CFIndex result = CFPreferencesGetAppIntegerValue((CFStringRef)prefName,
 													 APP_ID, 
@@ -929,7 +929,7 @@ long getMicroseconds() {
 // Returns fake data given the time. Range is +/-1.
 float fakeData(NSTimeInterval time) {
 	long secs = lround(floor(time));
-	int secsMod3 = secs % 3;
+	long secsMod3 = secs % 3;
 	double angle = time * 10 * M_PI * 2;
 	double mag = exp(-(time - (secs - secsMod3)) * 2);
 	return sin(angle) * mag;
